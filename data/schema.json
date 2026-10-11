@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Atlas Record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "resource_type",
+    "primary_category",
+    "description",
+    "official_url",
+    "record_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "resource_type": {
+      "type": "string"
+    },
+    "primary_category": {
+      "type": "string"
+    },
+    "secondary_categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "documentation_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organization": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "modalities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deployment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "access_model": {
+      "type": "string"
+    },
+    "pricing_model": {
+      "type": "string"
+    },
+    "license_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "record_status": {
+      "enum": [
+        "seed",
+        "needs_review",
+        "verified",
+        "stale",
+        "archived"
+      ]
+    },
+    "last_verified": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "source_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "date_added": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

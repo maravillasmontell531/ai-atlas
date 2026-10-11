@@ -1,140 +1,56 @@
+# AI Atlas
+
 <div align="center">
 
 <img src="assets/ai-atlas-mark.svg" alt="AI Atlas logo" width="112" />
 
-# 🌐 AI Atlas
+### A map of the artificial-intelligence ecosystem.
 
-### Navigate the world of artificial intelligence.
+**An advanced directory of AI products, model families, APIs, developer tools, creative systems, agents, infrastructure, datasets, benchmarks and research.**
 
-**A growing, community-driven directory of AI tools, models, agents, APIs, platforms, and research — organized in one place.**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Directory](https://img.shields.io/badge/directory-community--driven-informational.svg)](CATALOG.md)
-
-[Explore the catalog](CATALOG.md) · [Browse categories](CATEGORIES.md) · [Contribute](CONTRIBUTING.md) · [Source policy](SOURCES.md)
+[Catalog](CATALOG.md) · [AI Encyclopedia](docs/AI-ENCYCLOPEDIA.md) · [Engineering Stack](docs/AI-ENGINEERING-STACK.md) · [Model Landscape](docs/MODEL-LANDSCAPE.md) · [Glossary](docs/GLOSSARY.md) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
----
+## More than a chatbot list
 
-> AI Atlas is designed to grow continuously. No directory can honestly guarantee that every AI system is already listed: new tools launch, change, and disappear every day. This project aims to make discovery more complete, organized, and verifiable over time.
+Atlas separates applications, models, providers, inference runtimes, frameworks, infrastructure, data and evaluations. It is both a readable encyclopedia and structured data intended to power search, filtering and comparisons.
 
-## 🧭 What is AI Atlas?
+## Browse 12 major fields
 
-AI Atlas is an organized map of the AI ecosystem for developers, students, researchers, creators, businesses, and curious people. It collects official links and original descriptions of AI products, model families, APIs, open-source projects, agent frameworks, datasets, benchmarks, and learning resources.
+- [Assistants and General-Purpose AI](catalog/01-assistants.md) — 20 discovery entries.
+- [Search, Research and Knowledge Discovery](catalog/02-search-research.md) — 20 discovery entries.
+- [Coding and Software Engineering](catalog/03-coding-software.md) — 25 discovery entries.
+- [Writing and Productivity](catalog/04-writing-productivity.md) — 24 discovery entries.
+- [Image Generation, Design and Vision](catalog/05-image-design.md) — 25 discovery entries.
+- [Video, Avatars, Animation and 3D](catalog/06-video-3d.md) — 24 discovery entries.
+- [Speech, Voice, Audio and Music](catalog/07-audio-speech-music.md) — 25 discovery entries.
+- [Agents, Automation and Tool Protocols](catalog/08-agents-automation.md) — 25 discovery entries.
+- [AI APIs, Providers and Inference Platforms](catalog/09-apis-inference.md) — 25 discovery entries.
+- [Open Models, Local AI and Model Development](catalog/10-open-models-local-ai.md) — 24 discovery entries.
+- [Data, RAG, Evaluation and AI Security](catalog/11-data-rag-evaluation.md) — 28 discovery entries.
+- [Education, Science and Industry AI](catalog/12-education-science-industry.md) — 28 discovery entries.
 
-Listings can include capabilities, features, supported modalities, access methods, pricing notes, licensing information, documentation, limitations, and verification dates.
+## Technical guides
 
-## ✨ Explore the ecosystem
+- [AI Encyclopedia](docs/AI-ENCYCLOPEDIA.md): task families, neural networks, transformers, context, multimodality, RAG, agents, evaluation, deployment and security.
+- [AI Engineering Stack](docs/AI-ENGINEERING-STACK.md): architecture, context, retrieval, safe tools, tuning, evaluation, observability, resilience and cost.
+- [Model Landscape](docs/MODEL-LANDSCAPE.md): model families, versions, open weights, licenses and dynamic registries.
+- [Glossary](docs/GLOSSARY.md), [Taxonomy](CATEGORIES.md), [Source policy](SOURCES.md).
 
-| Area | What it covers |
-|---|---|
-| 💬 Assistants | Chat, writing, analysis, productivity, and multimodal assistants |
-| 🧠 Models | Language, reasoning, coding, vision, audio, embedding, and reranking models |
-| 🎨 Image & design | Generation, editing, illustration, visual search, and design |
-| 🎬 Video & animation | Video generation, editing, avatars, and animation |
-| 🎙️ Audio & speech | Speech recognition, text-to-speech, voice, music, and audio understanding |
-| 💻 Coding | Code generation, IDE assistants, debugging, testing, and software agents |
-| 🔎 Search & research | Answer engines, web search, papers, citations, and research workflows |
-| 🧰 Agents & automation | Agent frameworks, workflow builders, browser automation, and orchestration |
-| 🔌 APIs & infrastructure | Model APIs, inference providers, gateways, deployment, and monitoring |
-| 🏠 Local AI | Local inference, self-hosting, privacy-oriented tools, and model runners |
-| 📚 Learning & datasets | Courses, papers, datasets, benchmarks, evaluation, and documentation |
-| 🏢 Business AI | Support, sales, marketing, analytics, and workplace tools |
+## Machine-readable registry
 
-## 🚀 Start exploring
+- [JSON](data/ai-tools.json): 293 structured discovery records.
+- [CSV](data/ai-tools.csv): spreadsheet export.
+- [JSON Schema](data/schema.json): entry contract.
+- [Validator](scripts/validate_catalog.py) and [GitHub Actions](.github/workflows/validate-catalog.yml).
 
-- **[CATALOG.md](CATALOG.md)** — categorized starter directory with official links.
-- **[CATEGORIES.md](CATEGORIES.md)** — taxonomy for consistent discovery and tagging.
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** — how to submit tools, models, capabilities, and corrections.
-- **[SOURCES.md](SOURCES.md)** — verification standards and data-quality policy.
-- **[data/ai-tools.csv](data/ai-tools.csv)** — starter machine-readable dataset.
+## Completeness and currentness
 
-## 🧾 What a complete listing should include
+No static repository can honestly enumerate every checkpoint, fine-tune, paper, dataset, private deployment, API alias and regional product. New releases appear continuously. Atlas combines curated resources with [Hugging Face Models](https://huggingface.co/models), [Datasets](https://huggingface.co/datasets), [Spaces](https://huggingface.co/spaces), [OpenRouter](https://openrouter.ai/models), [Ollama Library](https://ollama.com/library), [NVIDIA NGC](https://catalog.ngc.nvidia.com/), [ModelScope](https://modelscope.cn/), [Kaggle Models](https://www.kaggle.com/models), [arXiv](https://arxiv.org/) and [OpenReview](https://openreview.net/). These are discovery sources, not endorsements.
 
-| Field | Purpose |
-|---|---|
-| Name and type | Official name; product, model, API, library, dataset, or research |
-| Category and tags | Primary use case plus relevant secondary capabilities |
-| Official website | Canonical destination for the resource |
-| Documentation | Official docs, model card, API reference, or repository |
-| Description | Original, concise explanation in plain language |
-| Capabilities | Tasks the tool or model is designed to support |
-| Features | Notable workflows, integrations, controls, and options |
-| Modalities | Text, image, audio, video, files, code, or structured data |
-| Access | Web, desktop, mobile, API, CLI, IDE, local, or self-hosted |
-| Pricing | Free, freemium, subscription, usage-based, or unknown |
-| Availability and license | Open source, open weights, proprietary, or unclear |
-| Limitations | Relevant constraints, requirements, or caveats |
-| Last verified | Date official information was checked |
-| Sources | URLs supporting important claims |
+All current records start as seeds. Only items checked against primary sources on a dated review should be marked verified. Pricing, IDs, context limits, plan access, terms and feature availability change; they are not guessed here.
 
-Not every field applies to every resource. Unknown information should be marked unknown, never guessed.
+## Contributing
 
-## 🌱 Catalog preview
-
-| Resource | Category | Description | Official link |
-|---|---|---|---|
-| ChatGPT | Assistant | General-purpose assistant for writing, analysis, coding, and supported multimodal tasks | [Website](https://chatgpt.com/) |
-| Claude | Assistant / models | Assistant and model family for writing, analysis, coding, and document workflows | [Website](https://claude.ai/) |
-| Gemini | Assistant / models | Google's AI assistant and model ecosystem | [Website](https://gemini.google.com/) |
-| Microsoft Copilot | Assistant | AI assistance across supported Microsoft and web experiences | [Website](https://copilot.microsoft.com/) |
-| Perplexity | Search / research | Answer engine built around web research and source links | [Website](https://www.perplexity.ai/) |
-| Hugging Face | Model hub | Platform for discovering and sharing models, datasets, and demos | [Website](https://huggingface.co/) |
-| Ollama | Local AI | Tools for running supported models locally | [Website](https://ollama.com/) |
-| OpenAI API | API platform | API access to supported models and capabilities | [Docs](https://platform.openai.com/docs) |
-| ElevenLabs | Audio / voice | AI voice and audio creation tools | [Website](https://elevenlabs.io/) |
-| Runway | Video / creative | AI-powered video and creative tools | [Website](https://runwayml.com/) |
-| Cursor | Coding | AI-focused code editor and software development workflows | [Website](https://cursor.com/) |
-
-This is an initial sample, not an exhaustive list or ranking. Capabilities, access, names, and prices can change; consult official sources for current details.
-
-## 🧠 Capabilities map
-
-AI Atlas organizes resources by what they help people do:
-
-- **Understand and generate:** text, code, images, audio, video, speech, and structured outputs.
-- **Reason and solve:** multi-step problem solving, mathematics, planning, and analysis.
-- **Search and synthesize:** web search, document Q&A, research assistance, and retrieval.
-- **Build software:** code completion, generation, debugging, refactoring, testing, and repository workflows.
-- **Take actions:** tool use, agents, browser interaction, API calls, and workflow automation.
-- **Create and communicate:** writing, translation, voice, presentations, design, and media production.
-- **Run and customize:** local inference, fine-tuning, model hosting, evaluation, and deployment.
-- **Measure and govern:** benchmarks, monitoring, safety evaluation, privacy, and security.
-
-A listed capability is not a guarantee of perfect performance. Verify it against the relevant product page, model card, and documentation.
-
-## 🔍 Choosing an AI
-
-Consider the task, input/output formats, quality evidence, price, regional availability, privacy practices, hardware requirements, API access, customization needs, and license terms. Compare resources for your own use case instead of assuming one tool is best at everything.
-
-## 🧭 Keeping the Atlas current
-
-- Prefer official websites, documentation, model cards, and release notes.
-- Record when information was last verified.
-- Write original descriptions rather than copying marketing text.
-- Distinguish the model from the app or platform that provides access to it.
-- Distinguish open source, open weights, and free access; they are not equivalent.
-- Flag renamed, discontinued, inaccessible, or duplicate entries.
-- Never publish API keys, credentials, private data, or personal information.
-
-## 🤝 Contributing
-
-Help expand the Atlas by adding resources, documenting real capabilities, correcting stale information, and reporting broken links. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## ⚖️ Disclaimer
-
-AI Atlas is an independent directory. Inclusion is not an endorsement. Product names, logos, trademarks, websites, models, datasets, and third-party content belong to their respective owners. Verify important information with providers before relying on it.
-
-The MIT License applies to original repository material to the extent permitted by law. It does not grant rights to third-party trademarks, logos, products, websites, models, datasets, or linked content.
-
----
-
-<div align="center">
-
-**AI Atlas — Navigate the world of AI.**
-
-Made for discovery. Improved by the community.
-
-</div>
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [SOURCES.md](SOURCES.md). Use official links, original neutral descriptions, exact resource types and evidence. No copied marketing or unsupported “best AI” claims. Third-party brands, models and datasets remain subject to their own terms.
