@@ -1,6 +1,6 @@
 # AI Atlas Catalog
 
-A structured index of AI products, model families, APIs, frameworks, infrastructure and research resources. Registry size: 293 seed records across 12 broad categories; this is a curated starting point, not literal exhaustive coverage.
+A structured index of AI products, model families, APIs, frameworks, infrastructure and research resources. Registry size: 292 seed records across 12 broad categories; this is a curated starting point, not literal exhaustive coverage.
 
 - [Assistants and General-Purpose AI](catalog/01-assistants.md) — 20 entries
 - [Search, Research and Knowledge Discovery](catalog/02-search-research.md) — 20 entries
