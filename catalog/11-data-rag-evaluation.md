@@ -132,15 +132,6 @@ Tags: data-rag-evaluation
 Registry ID: marker
 Verification: seed; current details require review
 
-### [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-
-Open-source OCR
-
-Resource type: framework
-Tags: data-rag-evaluation
-Registry ID: tesseract-ocr-11
-Verification: seed; current details require review
-
 ### [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 OCR toolkit for text detection/recognition

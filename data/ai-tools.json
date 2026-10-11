@@ -9385,43 +9385,6 @@
     "related_ids": []
   },
   {
-    "id": "tesseract-ocr-11",
-    "name": "Tesseract OCR",
-    "resource_type": "framework",
-    "primary_category": "Data, RAG, Evaluation and AI Security",
-    "secondary_categories": [
-      "data-rag-evaluation"
-    ],
-    "description": "Open-source OCR",
-    "official_url": "https://github.com/tesseract-ocr/tesseract",
-    "documentation_url": null,
-    "organization": null,
-    "modalities": [
-      "text"
-    ],
-    "capabilities": [
-      "data-rag-evaluation"
-    ],
-    "deployment": [
-      "hosted_app"
-    ],
-    "access_model": "unknown",
-    "pricing_model": "Check current official terms",
-    "license_name": null,
-    "license_url": null,
-    "status": "unknown",
-    "record_status": "seed",
-    "last_verified": null,
-    "source_urls": [
-      "https://github.com/tesseract-ocr/tesseract"
-    ],
-    "notes": [
-      "Discovery seed. Verify current features, access, pricing and license from official sources."
-    ],
-    "date_added": "2026-10-11",
-    "related_ids": []
-  },
-  {
     "id": "paddleocr",
     "name": "PaddleOCR",
     "resource_type": "framework",
