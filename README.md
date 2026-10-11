@@ -40,7 +40,7 @@ Atlas separates applications, models, providers, inference runtimes, frameworks,
 
 ## Machine-readable registry
 
-- [JSON](data/ai-tools.json): 293 structured discovery records.
+- [JSON](data/ai-tools.json): 292 structured discovery records.
 - [CSV](data/ai-tools.csv): spreadsheet export.
 - [JSON Schema](data/schema.json): entry contract.
 - [Validator](scripts/validate_catalog.py) and [GitHub Actions](.github/workflows/validate-catalog.yml).
