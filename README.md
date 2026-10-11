@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/ai-atlas-mark.svg" alt="AI Atlas logo" width="112" />
+
 # 🌐 AI Atlas
 
 ### Navigate the world of artificial intelligence.
