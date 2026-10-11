@@ -1,0 +1,25 @@
+name,resource_type,primary_category,description,official_url,documentation_url,access,availability,pricing,last_verified
+ChatGPT,product,assistants,"General-purpose assistant for writing analysis coding learning and supported multimodal tasks.",https://chatgpt.com/,https://platform.openai.com/docs,web;mobile;API,proprietary,freemium;paid,unknown
+Claude,product,assistants,"Assistant and model family for writing analysis coding and document workflows.",https://claude.ai/,https://docs.anthropic.com/,web;mobile;API,proprietary,freemium;paid,unknown
+Google Gemini,product,assistants,"Google AI assistant and model ecosystem; features depend on product and plan.",https://gemini.google.com/,https://ai.google.dev/gemini-api/docs,web;mobile;API,proprietary,freemium;paid,unknown
+Microsoft Copilot,product,assistants,"AI assistance across supported Microsoft and web experiences.",https://copilot.microsoft.com/,https://learn.microsoft.com/copilot/,web;mobile,proprietary,freemium;paid,unknown
+Perplexity,product,search-research,"AI search and answer experience with source links for research questions.",https://www.perplexity.ai/,https://docs.perplexity.ai/,web;mobile;API,proprietary,freemium;paid,unknown
+Hugging Face,platform,models-hubs,"Platform for discovering and sharing models datasets and demos.",https://huggingface.co/,https://huggingface.co/docs,web;API;CLI,mixed,freemium;paid,unknown
+OpenAI API,platform,apis-inference,"API platform for supported OpenAI models and capabilities.",https://platform.openai.com/,https://platform.openai.com/docs,API,proprietary,usage-based,unknown
+Anthropic API,platform,apis-inference,"API access to supported Claude models and tools.",https://www.anthropic.com/api,https://docs.anthropic.com/,API,proprietary,usage-based,unknown
+Google AI for Developers,platform,apis-inference,"Developer APIs and documentation for supported Google AI models.",https://ai.google.dev/,https://ai.google.dev/gemini-api/docs,API,proprietary,free-tier;usage-based,unknown
+OpenRouter,platform,apis-inference,"API gateway for accessing supported models from multiple providers.",https://openrouter.ai/,https://openrouter.ai/docs,API,mixed,usage-based,unknown
+Replicate,platform,apis-inference,"API access to a catalog of machine-learning models.",https://replicate.com/,https://replicate.com/docs,API,mixed,usage-based,unknown
+Cursor,product,coding,"AI-focused code editor and software development workflows.",https://cursor.com/,https://docs.cursor.com/,desktop,proprietary,freemium;paid,unknown
+GitHub Copilot,product,coding,"Coding assistance in supported development environments and GitHub workflows.",https://github.com/features/copilot,https://docs.github.com/en/copilot,IDE;web,proprietary,freemium;paid,unknown
+Midjourney,product,image-design,"Image generation and visual exploration.",https://www.midjourney.com/,unknown,web;Discord,proprietary,paid,unknown
+Adobe Firefly,product,image-design,"Generative creative tools in Adobe's ecosystem.",https://firefly.adobe.com/,https://helpx.adobe.com/firefly.html,web;desktop,proprietary,freemium;paid,unknown
+Runway,product,video,"AI video generation and creative editing tools.",https://runwayml.com/,https://help.runwayml.com/,web,proprietary,freemium;paid,unknown
+ElevenLabs,product,audio-speech,"AI voice and audio creation tools.",https://elevenlabs.io/,https://elevenlabs.io/docs,web;API,proprietary,freemium;usage-based,unknown
+Ollama,software,local-ai,"Tools for running supported models locally.",https://ollama.com/,https://docs.ollama.com/,desktop;CLI,open-source,free,unknown
+LM Studio,software,local-ai,"Desktop application for discovering and running supported local models.",https://lmstudio.ai/,https://lmstudio.ai/docs,desktop,mixed,free;terms-apply,unknown
+llama.cpp,software,local-ai,"Efficient local inference implementation for supported model formats.",https://github.com/ggml-org/llama.cpp,https://github.com/ggml-org/llama.cpp,CLI;library,open-source,free,unknown
+LangChain,framework,agents-frameworks,"Frameworks and tooling for language-model applications.",https://www.langchain.com/,https://docs.langchain.com/,library;API,open-source;mixed,free;paid-services,unknown
+LlamaIndex,framework,agents-frameworks,"Tools for connecting models to data and building retrieval-oriented applications.",https://www.llamaindex.ai/,https://docs.llamaindex.ai/,library;API,open-source;mixed,free;paid-services,unknown
+n8n,software,automation,"Workflow automation platform with AI integrations.",https://n8n.io/,https://docs.n8n.io/,web;self-hosted,source-available,free;paid,unknown
+NotebookLM,product,research,"Research and note-taking workspace grounded in supported source materials.",https://notebooklm.google.com/,https://support.google.com/notebooklm/,web,proprietary,free;plan-dependent,unknown
